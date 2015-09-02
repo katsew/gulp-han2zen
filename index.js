@@ -27,7 +27,8 @@ module.exports = function (opts) {
       file.contents = new Buffer(result);
     }
 
-    cb(null, file);
+    this.push(file);
+    cb();
 
   });
 };
