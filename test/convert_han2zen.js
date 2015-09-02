@@ -10,9 +10,9 @@ describe('gulp-han2zen', function () {
 
     var stream = han2zen();
 
-    stream.on('data', function (string) {
+    stream.on('data', function (file) {
       var expect = 'ハンカク';
-      assert.equal(string.contents.toString(), expect);
+      assert.equal(file.contents.toString(), expect);
       done();
     });
 
