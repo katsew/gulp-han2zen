@@ -1,6 +1,6 @@
 {
   "name": "gulp-han2zen",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "convert half-width string to full-width string with gulp.",
   "main": "index.js",
   "scripts": {
