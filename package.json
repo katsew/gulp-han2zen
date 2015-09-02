@@ -4,7 +4,7 @@
   "description": "convert half-width string to full-width string with gulp.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "$(npm bin)/mocha"
   },
   "author": "mlkato",
   "license": "MIT",
@@ -12,5 +12,8 @@
     "gulp-util": "^3.0.6",
     "moji": "^0.5.1",
     "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0"
   }
 }
