@@ -17,7 +17,7 @@ describe('gulp-han2zen', function () {
     });
 
     stream.write(new gutil.File({
-      contents: new Buffer('ハンカク')
+      contents: new Buffer('ﾊﾝｶｸ')
     }));
 
     stream.end();
